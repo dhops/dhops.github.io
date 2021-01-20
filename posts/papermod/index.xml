@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sub-Section PaperMod on This Infinite Now</title>
+    <link>dhops.github.io/posts/papermod/</link>
+    <description>Recent content in Sub-Section PaperMod on This Infinite Now</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Sep 2020 11:30:03 +0530</lastBuildDate><atom:link href="dhops.github.io/posts/papermod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation | Update</title>
+      <link>dhops.github.io/posts/papermod/papermod-installation/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>dhops.github.io/posts/papermod/papermod-installation/</guid>
+      <description>Read Install and Update instructions here</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>dhops.github.io/posts/papermod/papermod-features/</link>
+      <pubDate>Wed, 16 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>dhops.github.io/posts/papermod/papermod-features/</guid>
+      <description>Get known about All Features in PaperMod</description>
+    </item>
+    
+  </channel>
+</rss>
