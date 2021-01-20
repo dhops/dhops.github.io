@@ -1,4 +1,4 @@
-baseURL: "https://thisinfinitenow.com"
+baseURL: "dhops.github.io"
 title: This Infinite Now
 paginate: 5
 theme: hugo-PaperMod
@@ -22,7 +22,7 @@ languages:
         menu:
             main:
                 - name: Archive
-                  url: archives
+                  url: archives/
                   weight: 5
                 - name: Search
                   url: search/
@@ -34,56 +34,94 @@ languages:
                   url: categories/
                   weight: 10
 
-    fr:
-        languageName: ":fr:"
-        weight: 2
-        title: PaperModL2
-        profileMode:
-            enabled: true
-            title: PaperMod
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-            buttons:
-                - name: Blog
-                  url: posts
-                - name: Tags
-                  url: tags
-        menu:
-            main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: Tags
-                  url: tags
-                  weight: 10
-                - name: Categories
-                  url: categories
-                  weight: 10
-                - name: Series
-                  url: series
-                  weight: 10
-                - name: NullLink
-                  url: "#"
-                - name: NullLink2
-                  url: "#"
-                - name: NullLink3
-                  url: "#"
+    # es:
+    #     languageName: ":es:"
+    #     weight: 2
+    #     title: PaperModL2
+    #     profileMode:
+    #         enabled: true
+    #         title: PaperMod
+    #         # imageUrl: "#"
+    #         # imageTitle: my image
+    #         # imageWidth: 120
+    #         # imageHeight: 120
+    #         subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+    #         buttons:
+    #             - name: Blog
+    #               url: posts
+    #             - name: Tags
+    #               url: tags
+        # menu:
+        #     main:
+        #         - name: Archive
+        #           url: archives/
+        #           weight: 5
+        #         - name: Tags
+        #           url: tags
+        #           weight: 10
+        #         - name: Categories
+        #           url: categories
+        #           weight: 10
+        #         - name: Series
+        #           url: series
+        #           weight: 10
+        #         - name: NullLink
+        #           url: "#"
+        #         - name: NullLink2
+        #           url: "#"
+        #         - name: NullLink3
+        #           url: "#"
 
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        menu:
-            main:
-                - name: Tags
-                  url: tags
-                  weight: 10
+    # fr:
+    #     languageName: ":fr:"
+    #     weight: 2
+    #     title: PaperModL2
+    #     profileMode:
+    #         enabled: true
+    #         title: PaperMod
+    #         # imageUrl: "#"
+    #         # imageTitle: my image
+    #         # imageWidth: 120
+    #         # imageHeight: 120
+    #         subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+    #         buttons:
+    #             - name: Blog
+    #               url: posts
+    #             - name: Tags
+    #               url: tags
+    #     menu:
+    #         main:
+    #             - name: Archive
+    #               url: archives/
+    #               weight: 5
+    #             - name: Tags
+    #               url: tags
+    #               weight: 10
+    #             - name: Categories
+    #               url: categories
+    #               weight: 10
+    #             - name: Series
+    #               url: series
+    #               weight: 10
+    #             - name: NullLink
+    #               url: "#"
+    #             - name: NullLink2
+    #               url: "#"
+    #             - name: NullLink3
+    #               url: "#"
+
+    # fa:
+    #     languagedirection: rtl
+    #     weight: 3
+    #     title: PaperMod RTL
+    #     homeInfoParams:
+    #         Title: "Hi there \U0001F44B"
+    #         Content: Welcome to RTL layout
+    #     menu:
+    #         main:
+    #             - name: Tags
+    #               url: tags
+    #               weight: 10
 
 outputs:
     home:
@@ -99,7 +137,7 @@ params:
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
@@ -122,21 +160,15 @@ params:
     homeInfoParams:
         Title: "Welcome"
         Content: >
-            Welcome to my blog.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+          A wandering teacher trying to get some thoughts out of his head. ([&rarr; More about me.](about))
 
     socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
-        - name: RsS
-          url: "index.xml"
+          url: "https://github.com/dhops"
+        - name: facebook
+          url: "https://www.facebook.com/daniel.e.hopkins/"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/daniel-hopkins-vt"
 
     # label:
     #     text: "Home"
